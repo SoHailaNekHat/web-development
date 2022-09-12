@@ -8,7 +8,11 @@
     color: white;
     background-color: black;
     cursor: pointer;
+    transition: opacity 0.15s;
 
+    }
+    .request:hover{
+        opacity: 0.8;
     }
 </style>
 <p>Amazon</p>
@@ -23,8 +27,10 @@
     background-color: rgb(252, 216, 20);
     border: none;
     cursor: pointer;
-
-
+    transition: background-color 0.15s;
+}
+.amazon:hover{
+    background-color: rgb(233, 201, 21);
 }
 </style>
 <p>GitHub</p>
@@ -38,6 +44,12 @@
     height: 40px;
     border-radius: 5px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+   
+}
+.github:hover{ 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+
 }
 </style>
 <p>Bootstrap</p>
@@ -53,7 +65,11 @@
     border-radius:3px ;
     border-color: white;
     cursor: pointer;
+    transition: background-color 0.15s;
 
+}
+.bootstrap:hover{
+    background-color: rgb(127, 38, 210);
 }
 .download{
 border-color: rgb(108, 117, 125);
@@ -64,6 +80,11 @@ border-radius: 3px;
 background-color: white;
 color:rgb(108, 117, 125) ;
 cursor: pointer;
+transition: background-color 0.15s, color 0.15s;
+}
+.download:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
 }
 </style>
 <p>LinkedIn</p>
