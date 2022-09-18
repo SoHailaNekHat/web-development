@@ -1,0 +1,91 @@
+.img{
+    width: 200px;
+    border-radius: 7px;
+}
+.img2{
+    border-radius: 0px;
+    width: 300px;
+object-position: center;
+}
+.img3{
+    width: 200px;
+    border-radius: 2000px;
+}
+
+.searc-bar{
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: rgb(129, 128, 128);
+    padding: 20px;
+    width: 200px;
+    height: 8px;
+    
+    font-size: large;
+    
+}
+.google{
+    border-radius: 80px;
+    border: 1px solid #d3d3d3;
+   
+   
+    box-shadow: 0 0 5PX 0.5PX #d3d3d3;
+    padding-top: 7px;
+    padding-left: 3px;
+    width: 400px;
+    font-weight: 50px;
+    font-size: small;
+    padding-bottom: 7px;
+
+
+}
+.input{
+    border: 2px solid #343232;
+    width: 325px;
+    height: 20px;
+}
+.head{
+    color: #9c9a9a;
+    margin-bottom: 5px;
+    font-family: Arial;
+}
+.p1{
+color: #989696;
+margin-top: 10px;
+font-family: Arial;
+font-size: smaller;
+
+}
+.button{
+background-color: rgb(40, 99, 208);
+color: white;
+padding-left: 130px;
+padding-right: 130px;
+padding-top: 15px;
+padding-bottom: 15px;
+border: none;
+border-radius: 20px;
+font-size: medium;
+}
+.pic1{
+    border-radius: 500px;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+
+
+}
+.tweet{font-family: Arial;
+    color: #989696;
+    margin-right: 100px;
+  vertical-align: middle;
+    display:inline;
+}
+.button2{
+vertical-align: middle;
+color: white;
+background-color: rgb(41, 118, 211);
+padding: 8px 15px 8px 15px;
+border: none;
+border-radius: 20px;
+font-weight: bold;
+}
