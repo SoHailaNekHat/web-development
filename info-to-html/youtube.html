@@ -2,90 +2,33 @@
 <html>
     <head>
         <title>youtube.com</title>
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?
-        family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" >
-        
-        <style>
-            p{
-                font-family: Roboto, Arial;
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
-            .thumbnail{
-               width: 100%;
-      
-            }
-            .img1{
-                 width:"300px" ;
-        
-                object-fit: contain;
-                object-position: left;
-            }
-            .search-bar{
-                font-size: 20px;
-                display: block;
-                
-            }
-            .video-title{
-                margin-top: 0px;
-                font-size: 14px;
-                font-weight: 500px;
-                line-height: 20px;
-                margin-bottom: 12px;
-            }
-            .video-author,.video-stats{
-                font-size: 12px;
-                color: #606060;
-            }
-       .video-author{
-           margin-bottom: 4px;
-       }
-           .video-preview{
-               
-            
-              
-           }
-           .title{
-               font-family: Arial;
-           }
-         .video-info-grid{
-             display: grid;
-             grid-template-columns: 50px 1fr;
-
-         }
-         .video-grid{
-             display: grid;
-             margin-top: 30px;
-        grid-template-columns: 1fr 1fr 1fr;
-      
-        column-gap: 16px;
-        row-gap: 40px;
-         }
-           .channel-picture{
-              
-
-
-           }
-           .video-info{
-              
-       
-              
-           }
-           .profile-picture{
-               width: 40px;
-               border-radius: 100px;
-               margin-top: 0px;
-           }
-           .thumbnail-row{
-               margin-bottom: 12px;
-
-           }
-        </style>
+        family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" >       
     </head>
     <body>
-    <input class="search-bar" type="text" placeholder="Search">
+        <div class="header"> 
+            <div class="left-section">
+                <img src="" class="humberger-menu">
+                <img src="" class="youtube-logo">
+            </div>
+            <div class="middle-sectoin"><input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"> <img src="" class="search-icon"></button>
+            <button class="voice-search-button"><img src="" class="voice-search-icon"></button>
+            </div>
+            <div class="right-sectoin">
+                <img src="" class="upload-icon">
+                <img src="" class="youtube-apps-icon">
+                <img src="" class="notificatoins-icon" >
+                <img src="" class="current-user-picture" >
+            </div>
+ 
+        </div>
+   
 <div class="video-grid"> 
      <div class="video-preview"> 
     <div class="thumbnail-row">  <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
